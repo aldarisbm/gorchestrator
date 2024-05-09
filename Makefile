@@ -3,7 +3,7 @@ default: help
 .PHONY: help
 
 
-run: # Update Poetry dependencies
+run: # Runs the main() app
 	go run .
 
 help:
